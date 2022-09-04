@@ -1,0 +1,36 @@
+
+#corpo
+{
+    font-family: 'EB Garamond', serif;
+    background: fixed;
+    background-image: linear-gradient(rgb(8, 253, 192), rgb(14, 14, 14));
+    color: antiquewhite;
+    font-family: serif;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    transform: translate(240%, 90%);
+
+}
+
+.iniciar, .parar, .resetar
+{
+    font-family: 'EB Garamond', serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 5px solid rgba(0, 0, 0);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px;
+}
+.principal
+{
+    /* font-family: 'EB Garamond', serif; */
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    background-color: rgba( 255, 255);
+    padding: 10px;
+    border: 05px solid rgb(5, 5, 5);
+  margin: 20px;
+  border-radius: 20px;
+}

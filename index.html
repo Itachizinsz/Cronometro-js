@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="./img/cronometro-icon.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <title>cronometro</title>
+</head>
+
+<body id="corpo">
+    <div class="container">
+      <h1> cronômetro <i class="fa-regular fa-clock"></i> </h1>
+        <div class="principal">
+          <p class="tempo">
+            <span class="minutos">00</span>:<span class="segundos">00</span>:<span class="milissegundos">00</span>
+          </p>
+        </div>
+      </div>
+      <button onclick="iniciar()" class="iniciar">INICIAR</button>
+<button onclick="parar()" class="parar">PARAR</button>
+<button onclick="resetar()" class="resetar">RESETAR</button>
+      <script src="./index.js"></script>
+</body>
+</html>
