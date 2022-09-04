@@ -34,3 +34,22 @@
   margin: 20px;
   border-radius: 20px;
 }
+
+@media screen and (max-width:768px){
+    body{
+      background-image: linear-gradient(rgb(8, 253, 192), rgb(14, 14, 14));
+      background: no-repeat;
+      width: 100%;
+      padding: 0;
+      border: 0;
+    }
+  }
+  @media screen and (max-width:600px){
+    body{
+      background-image: linear-gradient(rgb(8, 253, 192), rgb(14, 14, 14));
+      background: no-repeat;
+      width: 100%;
+      border: 0;
+      padding: 0;
+    }
+  }
